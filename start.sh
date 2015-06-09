@@ -4,7 +4,7 @@ sudo apt-get update
 sudo apt-get -y install zsh
 
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
-usermod $USER -s /usr/bin/zsh
+sudo usermod $USER -s /usr/bin/zsh
 
 sed -i "s/ZSH_THEME=.*/ZSH_THEME=\"cloud\"/" ~/.zshrc
 sed -i "s/# ENABLE_CORRECTION/ENABLE_CORRECTION/" ~/.zshrc
