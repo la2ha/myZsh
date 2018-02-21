@@ -12,3 +12,5 @@ sed -i "s/# COMPLETION_WAITING_DOTS/COMPLETION_WAITING_DOTS/" ~/.zshrc
 sed -i "s/plugins=(git)/plugins=(git composer laravel5 colored-man cp screen)/" ~/.zshrc
 sed -i "s/PROMPT='/PROMPT='\$USER@\$HOST /" ~/.oh-my-zsh/themes/cloud.zsh-theme
 source ~/.zshrc
+cd ~
+rm -r ~/myZsh
